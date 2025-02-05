@@ -1,4 +1,4 @@
-# Bayesian-Inverse-Problems
+# Bayesian-Elliptic-PDEs
 
 MATLAB code for Bayesian nonparametric estimation with Gaussian priors in elliptic inverse problems.
 
