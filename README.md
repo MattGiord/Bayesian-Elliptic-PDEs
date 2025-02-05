@@ -16,11 +16,11 @@ simulation study where two different discretisation strategies are devised."
 
 This repository contains the MATLAB code to replicate the numerical simulation study presented in Section 4 of the article. It contains the 
 following:
-1. GenerateObservations.m code to generate the observations (discrete point evaluations of an elliptic PDE solution corrupted by additive Gaussian measurement errors)
-2. pCNMatern.m code to implement posterior inference based on the Matérn process prior, via the pCN algorithm. It requires the output of GenerateObservations.m and the auxiliary function in K_mat.m
-3. K_mat.m auxiliary code for the Matérn covariance kernel, required by pCNMatern.m
+1. GenerateObservations.m code to generate the observations (discrete point evaluations of an elliptic PDE solution corrupted by additive Gaussian measurement errors).
+2. pCNMatern.m code to implement posterior inference based on the Matérn process prior, via the pCN algorithm. It requires the output of GenerateObservations.m and the auxiliary function in K_mat.m.
+3. K_mat.m auxiliary code for the Matérn covariance kernel, required by pCNMatern.m.
 4. pCNSeries.m code to implement posterior inference based on truncated Dirichlet-Laplacian Gaussian series expansions, via the pCN algorithm.
 
-For questions or for reporting bugs, please e-mail Matteo Giordano (matteo.giordano@unito.it)
+For questions or for reporting bugs, please e-mail Matteo Giordano (matteo.giordano@unito.it).
 
-Please cite the following article if you use this repository in your research: Giordano, M (2023). Bayesian nonparametric inference in PDE models: asymptotic theory and implementation
+Please cite the following article if you use this repository in your research: Giordano, M (2023). Bayesian nonparametric inference in PDE models: asymptotic theory and implementation.
